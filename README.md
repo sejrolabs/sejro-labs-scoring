@@ -4,8 +4,9 @@
 
 Construire une plateforme qui estime, pour chaque client éligible,
 la probabilité de réaliser un nouvel achat dans les 90 jours.
-Le score aidera une équipe CRM à constituer des segments selon
-leur probabilité de rachat.
+
+L’équipe CRM pourra utiliser le score pour segmenter les clients selon
+leur probabilité de rachat et sélectionner une audience pour une campagne.
 
 ## Données
 
