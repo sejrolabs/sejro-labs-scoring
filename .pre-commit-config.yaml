@@ -1,0 +1,28 @@
+repos:
+  - repo: local
+    hooks:
+      - id: ruff-check
+        name: Vérifier le lint Python avec Ruff
+        entry: poetry run ruff check
+        language: unsupported
+        types: [python]
+
+      - id: ruff-format-check
+        name: Vérifier le formatage Python avec Ruff
+        entry: poetry run ruff format --check
+        language: unsupported
+        types: [python]
+
+      - id: mypy-check
+        name: Vérifier les types Python avec Mypy
+        entry: poetry run mypy
+        language: unsupported
+        types: [python]
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
+
+      - id: end-of-file-fixer
