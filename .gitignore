@@ -1,0 +1,18 @@
+# Données Olist téléchargées
+/data/raw/
+
+# Environnement Python local
+/.venv/
+
+# Fichiers générés par Python et les outils de qualité
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Configuration locale et secrets
+.env
+.env.*
+!.env.example
