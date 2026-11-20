@@ -1,0 +1,28 @@
+[project]
+name = "mktscore"
+version = "0.0.1"
+description = "Plateforme de scoring de rachat à 90 jours sur les données Olist."
+authors = [
+    {name = "Sèjro Boco",email = "sejro.boco.labs@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "pandas",
+    "scikit-learn",
+    "xgboost",
+]
+
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "ruff",
+    "mypy",
+    "pre-commit",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
