@@ -20,6 +20,7 @@ dev = [
     "ruff",
     "mypy",
     "pre-commit",
+    "pandas-stubs (>=3.1.0.261029,<4.0.0.0)",
 ]
 
 
