@@ -21,6 +21,7 @@ dev = [
     "mypy",
     "pre-commit",
     "pandas-stubs (>=3.1.0.261029,<4.0.0.0)",
+    "ipykernel (>=7.4.0,<8.0.0)",
 ]
 
 
